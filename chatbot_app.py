@@ -32,7 +32,7 @@ questions = [pair["question"] for pair in qa_pairs]
 question_embeddings = model.encode(questions, convert_to_tensor=True)
 
 # Streamlit UI
-st.title("🇪🇸 Spain Study Guide Chatbot")
+st.title("🇪🇸 Study Guide Chatbot")
 st.info("""  
 This is a demo chatbot built for educational consultancy websites.
 
